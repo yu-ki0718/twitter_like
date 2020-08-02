@@ -1,0 +1,16 @@
+current directory: /Users/yuuki/Desktop/twitter_like/vendor/bundle/ruby/2.4.0/gems/aliyun-sdk-0.7.3/ext/crcx
+/Users/yuuki/.rbenv/versions/2.4.1/bin/ruby -I /Users/yuuki/.rbenv/versions/2.4.1/lib/ruby/site_ruby/2.4.0 -r ./siteconf20200802-90204-cip97p.rb extconf.rb
+creating Makefile
+
+current directory: /Users/yuuki/Desktop/twitter_like/vendor/bundle/ruby/2.4.0/gems/aliyun-sdk-0.7.3/ext/crcx
+make "DESTDIR=" clean
+
+current directory: /Users/yuuki/Desktop/twitter_like/vendor/bundle/ruby/2.4.0/gems/aliyun-sdk-0.7.3/ext/crcx
+make "DESTDIR="
+compiling crc64_ecma.c
+compiling crcx.c
+linking shared-object aliyun/crcx.bundle
+
+current directory: /Users/yuuki/Desktop/twitter_like/vendor/bundle/ruby/2.4.0/gems/aliyun-sdk-0.7.3/ext/crcx
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 crcx.bundle ./.gem.20200802-90204-1wb16ff/aliyun
