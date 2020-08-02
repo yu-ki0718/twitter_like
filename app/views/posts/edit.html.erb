@@ -1,6 +1,13 @@
-<h1>Editing Post</h1>
+<h2>生成された画像の確認</h2>
+<div>
+  <%= image_tag @post.picture, width: '315' %>
+</div>
 
-<%= render 'form', post: @post %>
-
-<%= link_to 'Show', @post %> |
-<%= link_to 'Back', posts_path %>
+<h2>Step 3</h2>
+<a href="#" target="_blank" class="square_btn" data-show-count="false">Twitter投稿へ</a>
+<div>
+  <%= link_to "画像編集へ戻る", edit_post_path(@post) %>
+</div>
+<div>
+  <%= link_to "トップページへ", root_path %>
+</div>
