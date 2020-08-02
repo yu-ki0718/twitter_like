@@ -9,6 +9,13 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <% twitter_card = get_twitter_card_info(@post ? @post : nil) %>
+    <meta name="twitter:card" content=<%=twitter_card[:card]%> />
+    <meta property="og:url" content=<%=twitter_card[:url]%> />
+    <meta property="og:title" content=<%=twitter_card[:title]%> />
+    <meta property="og:description" content=<%=twitter_card[:description]%> />
+    <meta property="og:image" content=<%=twitter_card[:image]%> />
   </head>
 
   <body>
